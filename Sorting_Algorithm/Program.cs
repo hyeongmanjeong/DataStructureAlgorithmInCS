@@ -14,9 +14,9 @@ namespace Sorting_Algorithm
             //  before sorting array
             PrintAllData(arr);
             Console.WriteLine(" ------------------------- ");
-            //    Bubble_Sorting(arr);
-            //    Selection_Sorting(arr);
-            Insertion_Sorting(arr);
+            Bubble_Sorting(arr);
+           // Selection_Sorting(arr);
+           // Insertion_Sorting(arr);
             Console.WriteLine(" ------------------------- ");
             //  after sorting array
             PrintAllData(arr);
@@ -44,9 +44,9 @@ namespace Sorting_Algorithm
                     if (arr[j] > arr[j + 1])
                     {
                         Swap(ref arr[j],ref arr[j + 1]);
-                        PrintAllData(arr);
                     }
                 }
+                PrintAllData(arr);
             }
         }
         private static void Selection_Sorting(int[] arr)
