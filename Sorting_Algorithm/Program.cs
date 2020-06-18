@@ -14,9 +14,11 @@ namespace Sorting_Algorithm
             //  before sorting array
             PrintAllData(arr);
             Console.WriteLine(" ------------------------- ");
-            Bubble_Sorting(arr);
+            //    Bubble_Sorting(arr);
+            //    Selection_Sorting(arr);
+            Insertion_Sorting(arr);
             Console.WriteLine(" ------------------------- ");
-            // after sorting array
+            //  after sorting array
             PrintAllData(arr);
         }
         private static void Swap(ref int a, ref int b)
@@ -49,11 +51,33 @@ namespace Sorting_Algorithm
         }
         private static void Selection_Sorting(int[] arr)
         {
-
+            for (int i = 0; i < arr.Length - 1; i++)
+            {
+                int min = i;
+                for (int j = i + 1; j < arr.Length; j++)
+                {
+                    if (arr[min] > arr[j])
+                    {
+                        min = j;
+                    }
+                }
+                Swap(ref arr[i], ref arr[min]);
+                PrintAllData(arr);
+            }
         }
         private static void Insertion_Sorting(int[] arr)
         {
-
+            for(int i = 0; i < arr.Length - 1; i++)
+            {
+                for (int j = i + 1; j > 0; j--)
+                {
+                    if (arr[j] < arr[j - 1])
+                    {
+                        Swap(ref arr[j - 1], ref arr[j]);
+                    }
+                }
+                PrintAllData(arr);
+            }
         }
     }
 }
