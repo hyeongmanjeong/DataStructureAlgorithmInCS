@@ -17,8 +17,7 @@ namespace Sorting_Algorithm
             // Bubble_Sorting(arr);
             // Selection_Sorting(arr);
             // Insertion_Sorting(arr);
-            // Shell_Sorting(arr);
-            Merge_Sorting(arr);
+              Shell_Sorting(arr);
             Console.WriteLine(" ------------------------- ");
             //  after sorting array
             PrintAllData(arr);
@@ -103,21 +102,6 @@ namespace Sorting_Algorithm
                 }
                 gap /= 3;
             }
-        }
-        private static void Merge_Sorting(int[] arr)
-        {
-            Sort(0,arr.Length - 1);
-            void Sort(int low,int high)
-            {
-                if(low >= high)
-                {
-                    return;
-                }
-                int mid = (high + low) / 2;
-                Sort(low, mid);
-                Sort(mid + 1, high);
-            }
-            
         }
     }
 }
