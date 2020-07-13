@@ -6,7 +6,7 @@ namespace Linked_List_Algorithm
     {
         static void Main(string[] args)
         {
-            
+            Console.WriteLine("Hello World!");
         }
     }
 }

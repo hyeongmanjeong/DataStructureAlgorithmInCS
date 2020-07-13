@@ -6,15 +6,15 @@
   "compilationOptions": {},
   "targets": {
     ".NETCoreApp,Version=v2.1": {
-      "Singly_Linked_List/1.0.0": {
+      "Sorting_Algorithm/1.0.0": {
         "runtime": {
-          "Singly_Linked_List.dll": {}
+          "Sorting_Algorithm.dll": {}
         }
       }
     }
   },
   "libraries": {
-    "Singly_Linked_List/1.0.0": {
+    "Sorting_Algorithm/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""

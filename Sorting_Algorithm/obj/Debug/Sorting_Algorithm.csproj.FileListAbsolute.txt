@@ -1,7 +1,0 @@
-C:\C#\DataStructureAlgorithmInCS\Sorting_Algorithm\bin\Debug\Sorting_Algorithm.exe.config
-C:\C#\DataStructureAlgorithmInCS\Sorting_Algorithm\bin\Debug\Sorting_Algorithm.exe
-C:\C#\DataStructureAlgorithmInCS\Sorting_Algorithm\bin\Debug\Sorting_Algorithm.pdb
-C:\C#\DataStructureAlgorithmInCS\Sorting_Algorithm\obj\Debug\Sorting_Algorithm.csprojAssemblyReference.cache
-C:\C#\DataStructureAlgorithmInCS\Sorting_Algorithm\obj\Debug\Sorting_Algorithm.csproj.CoreCompileInputs.cache
-C:\C#\DataStructureAlgorithmInCS\Sorting_Algorithm\obj\Debug\Sorting_Algorithm.exe
-C:\C#\DataStructureAlgorithmInCS\Sorting_Algorithm\obj\Debug\Sorting_Algorithm.pdb

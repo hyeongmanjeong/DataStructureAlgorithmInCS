@@ -11,12 +11,12 @@
 using System;
 using System.Reflection;
 
-[assembly: System.Reflection.AssemblyCompanyAttribute("Singly_Linked_List")]
+[assembly: System.Reflection.AssemblyCompanyAttribute("Sorting_Algorithm")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
 [assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
-[assembly: System.Reflection.AssemblyProductAttribute("Singly_Linked_List")]
-[assembly: System.Reflection.AssemblyTitleAttribute("Singly_Linked_List")]
+[assembly: System.Reflection.AssemblyProductAttribute("Sorting_Algorithm")]
+[assembly: System.Reflection.AssemblyTitleAttribute("Sorting_Algorithm")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
 
 // MSBuild WriteCodeFragment 클래스에서 생성되었습니다.

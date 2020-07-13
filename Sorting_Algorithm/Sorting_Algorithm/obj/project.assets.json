@@ -694,11 +694,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\C#\\DataStructureAlgorithmInCS\\Singly_Linked_List_Algorithm\\Singly_Linked_List\\Singly_Linked_List.csproj",
-      "projectName": "Singly_Linked_List",
-      "projectPath": "C:\\C#\\DataStructureAlgorithmInCS\\Singly_Linked_List_Algorithm\\Singly_Linked_List\\Singly_Linked_List.csproj",
+      "projectUniqueName": "C:\\C#\\DataStructureAlgorithmInCS\\Sorting_Algorithm\\Sorting_Algorithm\\Sorting_Algorithm.csproj",
+      "projectName": "Sorting_Algorithm",
+      "projectPath": "C:\\C#\\DataStructureAlgorithmInCS\\Sorting_Algorithm\\Sorting_Algorithm\\Sorting_Algorithm.csproj",
       "packagesPath": "C:\\Users\\emfla\\.nuget\\packages\\",
-      "outputPath": "C:\\C#\\DataStructureAlgorithmInCS\\Singly_Linked_List_Algorithm\\Singly_Linked_List\\obj\\",
+      "outputPath": "C:\\C#\\DataStructureAlgorithmInCS\\Sorting_Algorithm\\Sorting_Algorithm\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"

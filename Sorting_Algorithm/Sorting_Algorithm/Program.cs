@@ -1,8 +1,4 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace Sorting_Algorithm
 {
@@ -10,14 +6,14 @@ namespace Sorting_Algorithm
     {
         static void Main(string[] args)
         {
-            int[] arr = new int[] { 10, 7, 1, 6, 8, 9, 2, 4 ,5,3};
+            int[] arr = new int[] { 10, 7, 1, 6, 8, 9, 2, 4, 5, 3 };
             //  before sorting array
             PrintAllData(arr);
             Console.WriteLine(" ------------------------- ");
-            // Bubble_Sorting(arr);
+             Bubble_Sorting(arr);
             // Selection_Sorting(arr);
             // Insertion_Sorting(arr);
-              Shell_Sorting(arr);
+            // Shell_Sorting(arr);
             Console.WriteLine(" ------------------------- ");
             //  after sorting array
             PrintAllData(arr);
@@ -44,7 +40,7 @@ namespace Sorting_Algorithm
                 {
                     if (arr[j] > arr[j + 1])
                     {
-                        Swap(ref arr[j],ref arr[j + 1]);
+                        Swap(ref arr[j], ref arr[j + 1]);
                     }
                 }
                 PrintAllData(arr);
@@ -68,7 +64,7 @@ namespace Sorting_Algorithm
         }
         private static void Insertion_Sorting(int[] arr)
         {
-            for(int i = 0; i < arr.Length - 1; i++)
+            for (int i = 0; i < arr.Length - 1; i++)
             {
                 for (int j = i + 1; j > 0; j--)
                 {
@@ -95,7 +91,7 @@ namespace Sorting_Algorithm
                     {
                         if (arr[j] < arr[j - gap])
                         {
-                            Swap(ref arr[j],ref arr[j - gap]);
+                            Swap(ref arr[j], ref arr[j - gap]);
                         }
                     }
                     PrintAllData(arr);
