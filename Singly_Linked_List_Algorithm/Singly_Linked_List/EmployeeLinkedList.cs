@@ -6,16 +6,33 @@ namespace Singly_Linked_List
 {
     class EmployeeLinkedList
     {
-        private EmployeeNode head;
-        
+        private EmployeeNode head = null;
+        private int size;
 
+        public int Size { get { return size; } set { size = value; } }
         public void AddToFront(Employee e)
         {
             EmployeeNode node = new EmployeeNode(e);
 
             node.EmployeeNext = head;
             head = node;
-
+            Size++;
+        }
+        public EmployeeNode RemoveFromFront()
+        {
+            if (IsEmpty())
+            {
+                return null;
+            }
+            EmployeeNode removeNode = head;
+            head = head.EmployeeNext;
+            Size--;
+            removeNode.EmployeeNext = null;
+            return removeNode;
+        }
+        public bool IsEmpty()
+        {
+            return head == null;
         }
         public void PrintLinkedList()
         {

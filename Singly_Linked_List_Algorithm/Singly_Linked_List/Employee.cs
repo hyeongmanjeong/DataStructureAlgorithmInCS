@@ -6,8 +6,11 @@ namespace Singly_Linked_List
 {
     class Employee
     {
-        public string FirstName { get; set; }
-        public string LastName { get; set; }
+        private string firstName;
+        private string lastName;
+
+        public string FirstName { get { return firstName; } set { firstName = value; } }
+        public string LastName { get { return lastName; } set { lastName = value; } }
 
         public Employee(string firstName,string lastName)
         {
@@ -17,7 +20,7 @@ namespace Singly_Linked_List
 
         public string To_String()
         {
-            return "FirstName : " + FirstName + " / " + "LastName : " + LastName;
+            return "FirstName : " + FirstName + " , " + "LastName : " + LastName;
         }
     }
 }
