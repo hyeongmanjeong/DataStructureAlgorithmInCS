@@ -24,7 +24,7 @@ namespace Singly_Linked_List
             list.PrintLinkedList();
             Console.WriteLine($"Linked List Size : {list.Size}");
             Console.WriteLine();
-            Console.WriteLine("-- After Remove From First --");
+            Console.WriteLine("---- After Remove From First ----");
             Console.WriteLine();
             list.RemoveFromFront();
             list.PrintLinkedList();
