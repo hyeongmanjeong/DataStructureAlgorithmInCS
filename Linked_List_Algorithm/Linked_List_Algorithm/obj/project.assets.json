@@ -688,7 +688,7 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\emfla\\.nuget\\packages\\": {},
+    "C:\\Users\\jeong\\.nuget\\packages\\": {},
     "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
   },
   "project": {
@@ -697,14 +697,14 @@
       "projectUniqueName": "C:\\C#\\DataStructureAlgorithmInCS\\Linked_List_Algorithm\\Linked_List_Algorithm\\Linked_List_Algorithm.csproj",
       "projectName": "Linked_List_Algorithm",
       "projectPath": "C:\\C#\\DataStructureAlgorithmInCS\\Linked_List_Algorithm\\Linked_List_Algorithm\\Linked_List_Algorithm.csproj",
-      "packagesPath": "C:\\Users\\emfla\\.nuget\\packages\\",
+      "packagesPath": "C:\\Users\\jeong\\.nuget\\packages\\",
       "outputPath": "C:\\C#\\DataStructureAlgorithmInCS\\Linked_List_Algorithm\\Linked_List_Algorithm\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
       ],
       "configFilePaths": [
-        "C:\\Users\\emfla\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\jeong\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
