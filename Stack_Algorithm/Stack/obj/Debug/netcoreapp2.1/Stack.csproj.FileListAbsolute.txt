@@ -1,0 +1,11 @@
+C:\C#\DataStructureAlgorithmInCS\Stack_Algorithm\Stack\bin\Debug\netcoreapp2.1\Stack.deps.json
+C:\C#\DataStructureAlgorithmInCS\Stack_Algorithm\Stack\bin\Debug\netcoreapp2.1\Stack.runtimeconfig.json
+C:\C#\DataStructureAlgorithmInCS\Stack_Algorithm\Stack\bin\Debug\netcoreapp2.1\Stack.runtimeconfig.dev.json
+C:\C#\DataStructureAlgorithmInCS\Stack_Algorithm\Stack\bin\Debug\netcoreapp2.1\Stack.dll
+C:\C#\DataStructureAlgorithmInCS\Stack_Algorithm\Stack\bin\Debug\netcoreapp2.1\Stack.pdb
+C:\C#\DataStructureAlgorithmInCS\Stack_Algorithm\Stack\obj\Debug\netcoreapp2.1\Stack.csprojAssemblyReference.cache
+C:\C#\DataStructureAlgorithmInCS\Stack_Algorithm\Stack\obj\Debug\netcoreapp2.1\Stack.csproj.CoreCompileInputs.cache
+C:\C#\DataStructureAlgorithmInCS\Stack_Algorithm\Stack\obj\Debug\netcoreapp2.1\Stack.AssemblyInfoInputs.cache
+C:\C#\DataStructureAlgorithmInCS\Stack_Algorithm\Stack\obj\Debug\netcoreapp2.1\Stack.AssemblyInfo.cs
+C:\C#\DataStructureAlgorithmInCS\Stack_Algorithm\Stack\obj\Debug\netcoreapp2.1\Stack.dll
+C:\C#\DataStructureAlgorithmInCS\Stack_Algorithm\Stack\obj\Debug\netcoreapp2.1\Stack.pdb
