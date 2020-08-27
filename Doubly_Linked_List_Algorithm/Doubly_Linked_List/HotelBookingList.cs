@@ -8,7 +8,7 @@ namespace Doubly_Linked_List
     {
         private HotelBookingNode head;
         private HotelBookingNode tail;
-        private int size;
+        public int size;
 
         public void AddToFront(HotelBooking h)
         {
@@ -40,13 +40,32 @@ namespace Doubly_Linked_List
             tail = node;
             size++;
         }
+        public void RemoveIndexFromFront()
+        {
+            if (IsEmpty())
+            {
+                return;
+            }
+            HotelBookingNode removeNode = head;
+            head = head.Next;
+            size--;
+            removeNode = null;
+        }
+        public void RemoveIndexFromEnd()
+        {
+
+        }
+        private bool IsEmpty()
+        {
+            return head == null;
+        }
         public void PrintAllLinkedList()
         {
             HotelBookingNode current = head;
             Console.Write("Head -> ");
             while (current.Next != null)
             {
-                Console.Write($"{current.To_String()} -> ");
+                Console.Write($" {current.To_String()} -> ");
                 current = current.Next;
             }
             Console.WriteLine("Tail");
