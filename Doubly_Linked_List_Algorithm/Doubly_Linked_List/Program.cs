@@ -25,6 +25,12 @@ namespace Doubly_Linked_List
             reservationByHyeongman.AddToEnd(info5);
             reservationByHyeongman.PrintAllLinkedList();
             Console.WriteLine($"Linked List Current Size : {reservationByHyeongman.size}");
+            reservationByHyeongman.RemoveIndexFromFront();
+            reservationByHyeongman.PrintAllLinkedList();
+            Console.WriteLine($"Linked List Current Size : {reservationByHyeongman.size}");
+            reservationByHyeongman.RemoveIndexFromEnd();
+            reservationByHyeongman.PrintAllLinkedList();
+            Console.WriteLine($"Linked List Current Size : {reservationByHyeongman.size}");
         }
     }
 }

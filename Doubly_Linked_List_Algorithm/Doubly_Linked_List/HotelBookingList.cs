@@ -13,7 +13,6 @@ namespace Doubly_Linked_List
         public void AddToFront(HotelBooking h)
         {
             HotelBookingNode node = new HotelBookingNode(h);
-            node.Next = head;
             if(head == null)
             {
                 tail = node;
@@ -21,6 +20,7 @@ namespace Doubly_Linked_List
             else
             {
                 head.Prev = node;
+                node.Next = head;
             }
             head = node;
             size++;
@@ -47,13 +47,36 @@ namespace Doubly_Linked_List
                 return;
             }
             HotelBookingNode removeNode = head;
+            if(head.Next == null)
+            {
+                tail = null;
+            }
+            else 
+            {
+                head.Next.Prev = null;
+            }
             head = head.Next;
             size--;
             removeNode = null;
         }
         public void RemoveIndexFromEnd()
         {
-
+            if (IsEmpty())
+            {
+                return;
+            }
+            HotelBookingNode removeNode = tail;
+            if (tail.Prev == null)
+            {
+                head = null;
+            }
+            else
+            {
+                tail.Prev.Next = null;
+            }
+            tail = tail.Prev;
+            size--;
+            removeNode = null;
         }
         private bool IsEmpty()
         {
@@ -63,7 +86,7 @@ namespace Doubly_Linked_List
         {
             HotelBookingNode current = head;
             Console.Write("Head -> ");
-            while (current.Next != null)
+            while (current != null)
             {
                 Console.Write($" {current.To_String()} -> ");
                 current = current.Next;
