@@ -1,0 +1,11 @@
+C:\C#\DataStructureAlgorithmInCS\Search_Algorithm\Linear_Search_Binary_Search\bin\Debug\netcoreapp2.1\Linear_Search_Binary_Search.deps.json
+C:\C#\DataStructureAlgorithmInCS\Search_Algorithm\Linear_Search_Binary_Search\bin\Debug\netcoreapp2.1\Linear_Search_Binary_Search.runtimeconfig.json
+C:\C#\DataStructureAlgorithmInCS\Search_Algorithm\Linear_Search_Binary_Search\bin\Debug\netcoreapp2.1\Linear_Search_Binary_Search.runtimeconfig.dev.json
+C:\C#\DataStructureAlgorithmInCS\Search_Algorithm\Linear_Search_Binary_Search\bin\Debug\netcoreapp2.1\Linear_Search_Binary_Search.dll
+C:\C#\DataStructureAlgorithmInCS\Search_Algorithm\Linear_Search_Binary_Search\bin\Debug\netcoreapp2.1\Linear_Search_Binary_Search.pdb
+C:\C#\DataStructureAlgorithmInCS\Search_Algorithm\Linear_Search_Binary_Search\obj\Debug\netcoreapp2.1\Linear_Search_Binary_Search.csprojAssemblyReference.cache
+C:\C#\DataStructureAlgorithmInCS\Search_Algorithm\Linear_Search_Binary_Search\obj\Debug\netcoreapp2.1\Linear_Search_Binary_Search.csproj.CoreCompileInputs.cache
+C:\C#\DataStructureAlgorithmInCS\Search_Algorithm\Linear_Search_Binary_Search\obj\Debug\netcoreapp2.1\Linear_Search_Binary_Search.AssemblyInfoInputs.cache
+C:\C#\DataStructureAlgorithmInCS\Search_Algorithm\Linear_Search_Binary_Search\obj\Debug\netcoreapp2.1\Linear_Search_Binary_Search.AssemblyInfo.cs
+C:\C#\DataStructureAlgorithmInCS\Search_Algorithm\Linear_Search_Binary_Search\obj\Debug\netcoreapp2.1\Linear_Search_Binary_Search.dll
+C:\C#\DataStructureAlgorithmInCS\Search_Algorithm\Linear_Search_Binary_Search\obj\Debug\netcoreapp2.1\Linear_Search_Binary_Search.pdb
