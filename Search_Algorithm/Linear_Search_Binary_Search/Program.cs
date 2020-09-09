@@ -12,7 +12,7 @@ namespace Linear_Search_Binary_Search
             Console.WriteLine(LinearSearching(arr, 99));
 
         }
-        public static int LinearSearching(int[] arr,int value)
+        private static int LinearSearching(int[] arr,int value)
         {
             for(int i = 0; i < arr.Length; i++)
             {
@@ -22,6 +22,10 @@ namespace Linear_Search_Binary_Search
                 }
             }
             return -1;
+        }
+        private static int BinarySearching()
+        {
+            return 0;
         }
     }
 }
