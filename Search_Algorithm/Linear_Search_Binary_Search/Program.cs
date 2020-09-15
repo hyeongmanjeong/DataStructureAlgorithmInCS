@@ -6,11 +6,15 @@ namespace Linear_Search_Binary_Search
     {
         static void Main(string[] args)
         {
-            int[] arr = { 10, 4, 50, 9, 14, 17, 13 , 30,22,21 };
+            int[] arr = { 1, 4, 6, 9, 14, 17, 20 , 21,28,30 };
 
-            Console.WriteLine(LinearSearching(arr, 10));
-            Console.WriteLine(LinearSearching(arr, 99));
-
+            // -1 아닐경우 성공 
+            // Linear Searching  
+            Console.WriteLine($"Found Index Of {LinearSearching(arr, 17)}");
+            Console.WriteLine($"Found Index Of {LinearSearching(arr, 33)}");
+            // Binary Searching
+            Console.WriteLine($"Found Index Of {BinarySearching(arr, 9)}");
+            Console.WriteLine($"Found Index Of {BinarySearching(arr, 22)}");
         }
         private static int LinearSearching(int[] arr,int value)
         {
@@ -23,9 +27,27 @@ namespace Linear_Search_Binary_Search
             }
             return -1;
         }
-        private static int BinarySearching()
+        private static int BinarySearching(int[] arr,int value) 
         {
-            return 0;
+            int start = 0;
+            int end = arr.Length;
+            while (start < end)
+            {
+                int midPoint = (start + end) / 2;
+                if (arr[midPoint] == value)
+                {
+                    return midPoint;
+                }
+                else if (arr[midPoint] < value)
+                {
+                    start = midPoint + 1;
+                }
+                else
+                {
+                    end = midPoint;
+                }
+            }
+            return -1;
         }
     }
 }
